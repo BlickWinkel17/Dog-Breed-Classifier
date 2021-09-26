@@ -82,6 +82,10 @@ There is a web app where any one can either upload a local image or input an ima
  ```sh
 git clone https://github.com/BlickWinkel17/DogBreedClassifier.git
 ```
+Entering the project path
+ ```sh
+cd DogBreedClassifier
+```
 Next, run the Python file run.py.
 ```sh
 python app/run.py
