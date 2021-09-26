@@ -96,12 +96,14 @@ Upload a local image directly or type an image url to see the dog breed that you
 - If we look at these wrong predictions in test set, it turns out that the current model fails to classify correctly in some resembling dog breeds. For example, the current model tends to recognize __German wirehaired pointer__ as __Wirehaired pointing griffon__, and recognize __German pinscher__ as __Doberman pinscher__. It seems that the model fails to capture some slight differences between dog breeds.
 
 <div align=center>
+
 __German wirehaired pointer and Wirehaired pointing griffon__
 
 <img src="https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/German%20wirehaired%20pointer.jpg" width="300" height="300"> <img src="https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/Wirehaired%20pointing%20griffon.jpg" width="300" height="300"> 
 <div>
 	
 <div align=center>
+
 __German pinscher and Doberman pinscher__
 
 <img src="https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/German%20pinscher.jpg" width="300" height="300"> <img src="https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/Doberman%20pinscher.jpg" width="300" height="300">
