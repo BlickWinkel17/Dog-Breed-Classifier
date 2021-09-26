@@ -5,7 +5,8 @@
 2. [Project Components](#project-components)
 3. [File Description](#file-description)
 4. [Installation](#installation)
-5. [Discussions](#Discussions)
+5. [Discussions](#discussions)
+6. [Screenshots of the web app](#screenshots)
 
 ## Project Overview
 This project is part of the [Udacity Data Science Nano Degree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025). This project will analyze a data set containing dog images of different breeds. This project will build a dog breed classifier based on convolutional neural networks. A Flask web app is also included so that any one can input a image url or a local image and get a classification result.
@@ -56,8 +57,8 @@ There is a web app where any one can either upload a local image or input an ima
 	- dog_names.txt: store names of 133 dog breeds
   - extract_bottleneck_features.py: different CNNs with top layer excluded
 - \Screenshots
-  -
-  -
+  - ClassifyViaUploadedImage.png
+  - ClassifyViaImageUrl.png
 ```
 
 ## Installation
@@ -94,7 +95,19 @@ Upload a local image directly or type an image url to see the dog breed that you
 - In building the model, I tried an simple image augmentation approach(see the Image Augmentation part in the notebook), which slightly improves the result. This image augmentation can be investigated deeplier.
 - If we look at these wrong predictions in test set, it turns out that the current model fails to classify correctly in some resembling dog breeds. For example, the current model tends to recognize __German wirehaired pointer__ as __Wirehaired pointing griffon__, and recognize __German pinscher__ as __Doberman pinscher__. It seems that the model fails to capture some slight differences between dog breeds.
 
+<div align=center>
+__German wirehaired pointer and Wirehaired pointing griffon__
 
-#### Screenshot of the web app
-![Alt text](https://github.com/BlickWinkel17/DisasterResponsePipeline/blob/master/Screenshots/ClassifyViaUploadedImage.png)
-![Alt text](https://github.com/BlickWinkel17/DisasterResponsePipeline/blob/master/Screenshots/ClassifyViaImageUrl.png)
+<img src="https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/German%20wirehaired%20pointer.jpg" width="300" height="300"> <img src="https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/Wirehaired%20pointing%20griffon.jpg" width="300" height="300"> 
+<div>
+	
+<div align=center>
+__German pinscher and Doberman pinscher__
+
+<img src="https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/German%20pinscher.jpg" width="300" height="300"> <img src="https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/Doberman%20pinscher.jpg" width="300" height="300">
+<div>
+
+## Screenshots
+	
+![Alt text](https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/ClassifyViaUploadedImage.png)
+![Alt text](https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/ClassifyViaImageUrl.png)
