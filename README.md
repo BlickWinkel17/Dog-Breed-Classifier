@@ -93,8 +93,11 @@ Upload a local image directly or type an image url to see the dog breed that you
 - This ResNet50 based model achieved an accuracy of around __80%__ on a test set of 836 dog images. Other models such as VGG16, VGG19 and InceptionV3 were also tested, none of which exceeds that accuracy. But most satisfying records found in Kaggle reported accuracies over 90%, indicating the fact that the current model can be improved further much more.
 - In building the model, I tried an simple image augmentation approach(see the Image Augmentation part in the notebook), which slightly improves the result. This image augmentation can be investigated deeplier.
 - If we look at these wrong predictions in test set, it turns out that the current model fails to classify correctly in some resembling dog breeds. For example, the current model tends to recognize __German wirehaired pointer__ as __Wirehaired pointing griffon__, and recognize __German pinscher__ as __Doberman pinscher__. It seems that the model fails to capture some slight differences between dog breeds.
-
+![Image](https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/German%20wirehaired%20pointer.jpg) German wirehaired pointer
+![Image](https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/Wirehaired%20pointing%20griffon.jpg) Wirehaired pointing griffon
+![Image](https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/German%20pinscher.jpg) German pinscher
+![Image](https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/Doberman%20pinscher.jpg) Doberman pinscher
 
 #### Screenshot of the web app
-![Alt text](https://github.com/BlickWinkel17/DisasterResponsePipeline/blob/master/Screenshots/ClassifyViaUploadedImage.png)
-![Alt text](https://github.com/BlickWinkel17/DisasterResponsePipeline/blob/master/Screenshots/ClassifyViaImageUrl.png)
+![Alt text](https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/ClassifyViaUploadedImage.png)
+![Alt text](https://github.com/BlickWinkel17/DogBreedClassifier/blob/master/Screenshots/ClassifyViaImageUrl.png)
